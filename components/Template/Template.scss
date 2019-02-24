@@ -1,0 +1,47 @@
+@import '../../assets/fonts.scss';
+@import '../../assets/color.scss';
+
+body {
+  color: $color-black;
+  background-color: $color-white;
+}
+
+.lang_en {
+  font-family: $font-family-en-roboto;
+}
+
+.lang_th {
+  font-family: $font-family-th;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1450px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header_wrapper{
+  padding: 0;
+}

@@ -1,0 +1,28 @@
+@import '../../assets/color.scss';
+@import '../../assets/fonts.scss';
+
+.langBar {
+  margin-top: 1em;
+  text-align: right;
+  color: $color-black;
+
+  .langSwitch {
+    background: none !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .langSwitchEN {
+    font-family: $font-family-en;
+    @extend .langSwitch;
+  }
+  
+  .langSwitchTH {
+    font-family: $font-family-th;
+    @extend .langSwitch;
+  }
+}
+

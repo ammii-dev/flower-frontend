@@ -1,0 +1,19 @@
+$font-family-en: 'Lato';
+$font-family-th: 'SukhumvitTadmai';
+$font-family-en-roboto: 'Roboto';
+
+@font-face {
+  font-family: $font-family-en;
+  src: url('/static/fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-family-th;
+  src: url('/static/fonts/SukhumvitTadmai/otf/SukhumvitTadmai_Tex.otf') format('opentype'),
+    url('/static/fonts/SukhumvitTadmai/ttf/SukhumvitTadmai_Tex.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-family-en-roboto;
+  src: url('/static/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}

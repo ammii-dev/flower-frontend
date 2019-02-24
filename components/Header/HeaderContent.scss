@@ -1,0 +1,18 @@
+.header_content{
+  display:flex;
+  .logo_wrapper{
+    padding-right: 15px;
+  }
+  .right_panel{
+    flex: 1;
+    .user_menu{
+      display: flex;
+      justify-content: flex-end;
+      
+    }
+  }
+}
+
+.ant-menu-item{
+      background-color: white!important;
+  }
