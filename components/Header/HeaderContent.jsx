@@ -6,18 +6,16 @@ import Link from 'next/link'
 
 const SubMenu = Menu.SubMenu;
 
+const ButtonMenu = (props) => (
+  <div className={style.button_menu}>
+    {props.buttonText}
+  </div>
+)
+
 const UserMenu = (props) => (
   <div className={style.user_menu}>
-    <Menu
-      mode="horizontal"
-      style={{ lineHeight: '64px' }}
-      theme="dark"
-    >
-      <Menu.Item key="1">{props.t('signup')}</Menu.Item>
-      <Menu.Item className={style.test} style={{paddingRight: "0", paddingLeft: "5px"}}>
-        <Button type="primary">{props.t('login')}</Button>
-      </Menu.Item>
-    </Menu>
+    <ButtonMenu buttonText={props.t('nav3')}/>
+    <ButtonMenu buttonText={<Button type="primary">{props.t('login') + "/" + props.t('signup')}</Button>}/>
   </div>
 )
 
@@ -40,7 +38,6 @@ const HeaderContent = (props) => (
         </Menu.ItemGroup>
       </SubMenu>
       <Menu.Item key="2">{props.t('nav2')}</Menu.Item>
-      <SubMenu title={props.t('nav3')}></SubMenu>
     </Menu>
     <div className={style.right_panel}>
       <UserMenu {...props}/>

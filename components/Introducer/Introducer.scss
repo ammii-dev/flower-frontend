@@ -1,0 +1,91 @@
+@import '../../assets/fonts.scss';
+
+.introducer_height{
+  width: 100%;
+}
+.introducer_container{
+  position: relative;
+  min-height: 500px;
+
+  .text_introducer_container{
+    padding: 0px 0 40px 0;
+    
+    .lang_en{
+      font-family: $font-family-en-default;
+    }
+    .lang_th{
+      font-family: $font-family-th;
+    }
+
+    .main{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      height: 220px;
+
+      .introduceTitle{
+        font-size: 55px;
+        font-weight: 500;
+        color: rgba(0,0,0,.85);
+      }
+
+      .introduceDescription{
+        color: #637484;
+        margin-top: 0.27em;
+        font-size: 21px;
+        font-weight: normal;
+      }
+
+      .introduceButton{
+        position: absolute;
+        bottom: 0;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.introduceTitle {
+  animation: head 1.3s 1;
+  @keyframes head {
+    0%, 20% {
+      opacity: 0;
+      transform: translate(0%, 20px);
+      letter-spacing: 10px;
+    }
+    75% {
+      opacity: 1;
+      transform: translate(0%, 20px);
+    }
+  }
+}
+.introduceDescription {
+  animation: campaignText 1.3s 1;
+  @keyframes campaignText {
+    0% {
+      opacity: 0;
+      margin-top: -20px;
+    }
+    75% {
+      opacity: 0;
+      margin-top: -20px;
+    }
+  }
+}
+.introduceButton{
+  animation: buttonSet 1.3s 1;
+  @keyframes buttonSet {
+    0%, 30% {
+      opacity: 0;
+      left: 40px;
+    }
+    100% {
+      opacity: 1;
+      left: 0px;
+    }
+  }
+}

@@ -1,12 +1,15 @@
 import { withNamespaces } from '../../i18n';
 import Template from "../../components/Template/Template"
-import LanguageSwitcher from "../../components/LanguageSwitcher/LanguageSwitcher"
+import Introducer from "../../components/Introducer/Introducer"
+import Footer from '../../components/Footer/Footer';
+import TopStar from '../../components/TopStar/TopStar'
 
 const Home = (props) => {
   return (
     <Template>
-      <LanguageSwitcher />
-      Home {props.t('hello')}
+      <Introducer />
+      <TopStar />
+      <Footer/>
     </Template>
   )
 }

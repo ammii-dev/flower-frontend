@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import { Layout, Menu } from 'antd';
-import Footer from '../Footer/Footer';
 import style from './Template.scss';
 import { i18n, withNamespaces } from '../../i18n'
 import HeaderContent from '../Header/HeaderContent'
@@ -8,7 +7,7 @@ import HeaderContent from '../Header/HeaderContent'
 const { Content, Header } = Layout;
 
 // set default language
-i18n.changeLanguage('en')
+//i18n.changeLanguage('en')
 
 const Template = (props) => (
   <div className={style[`lang_${i18n.language}`]}>
@@ -23,9 +22,8 @@ const Template = (props) => (
         <HeaderContent />
       </div>
     </Header>
-    <Content className={style.container}>
+    <Content>
       {props.children}
-      {/*<Footer />*/}
     </Content>
   </div>
 )

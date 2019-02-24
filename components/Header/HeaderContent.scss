@@ -1,3 +1,4 @@
+
 .header_content{
   display:flex;
   .logo_wrapper{
@@ -13,6 +14,12 @@
   }
 }
 
-.ant-menu-item{
-      background-color: white!important;
+.button_menu{
+  padding-left: 40px;
+  transition-duration: .5s;
+  color: darken(#fff, 35%);
+  cursor: pointer;
+  &:hover {
+    color: #fff;
   }
+}

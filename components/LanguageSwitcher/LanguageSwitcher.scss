@@ -2,9 +2,10 @@
 @import '../../assets/fonts.scss';
 
 .langBar {
-  margin-top: 1em;
+  padding-top: 1em;
   text-align: right;
   color: $color-black;
+  float: right;
 
   .langSwitch {
     background: none !important;
