@@ -1,0 +1,43 @@
+@import '../../assets/color.scss';
+
+.avatar_card{
+  flex: 0 1;
+
+  .card_box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .img_wrapper{
+      height: 70%;
+      border-radius: 2px;
+      overflow: hidden;
+      border: 1px solid #eaeaea;
+      position: relative;
+      
+      .img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        filter: brightness(100%);
+      }
+    }
+
+    .card_info{
+      margin-top: 5px;
+
+      .card_title{
+        font-size: 17px;
+        font-weight: 600;
+      }
+
+      .card_desc{
+        font-size: 14px;
+        color: lighten(black, 40%);
+      }
+    }
+  }
+  
+  
+}

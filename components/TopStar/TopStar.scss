@@ -1,0 +1,12 @@
+.topstar_wrapper{
+  background: #F6F7F8;
+  position: relative;
+  overflow: hidden;
+}
+.topstar_list_container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-left: -10px;
+  margin-right: -10px;
+}
