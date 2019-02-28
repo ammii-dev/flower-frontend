@@ -11,6 +11,7 @@ const TextIntroduce = (props) => (
     <div className={[style.main, style[`lang_${i18n.language}`]].join(' ')}>
       <div className={style.introduceTitle}>{props.t('title')}</div>
       <div className={style.introduceDescription}>{props.t('description')}</div>
+
       <div className={style.introduceButton}>
         <Popover content="In development / ยังทำไม่เสร็จ หาด้วยโซนไปก่อนนะคะ">
           <Button type="primary" shape="round" size="large" style={{fontSize: "16px"}}>
@@ -21,6 +22,7 @@ const TextIntroduce = (props) => (
           <ButtonContent iconUrl="./static/icons/icons8-place-marker-filled-30.png" text={props.t('findbyzone')}/>
         </Button>
       </div>
+      
     </div>
   </div>
 )
@@ -38,6 +40,8 @@ const Introducer = (props) => (
 
 
 
+
+// Content inside button
 const ButtonContent = (props) => (
   <a id="findOptionsButton" className="fobtn">
     <div className="divImg">
