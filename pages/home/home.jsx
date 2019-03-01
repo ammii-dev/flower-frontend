@@ -3,7 +3,7 @@ import Template from "../../components/Template/Template"
 import Introducer from "../../components/Introducer/Introducer"
 import Footer from '../../components/Footer/Footer';
 import TopStar from '../../components/TopStar/TopStar'
-import FindEscorts from '../../components/FindEscorts/FindEscorts';
+import FindEscorts from '../../components/FindEscorts/FindEscortSection';
 
 // const Home = (props) => {
 //   function componentDidMount() {
@@ -34,7 +34,7 @@ import FindEscorts from '../../components/FindEscorts/FindEscorts';
 class Home extends React.Component{
   
   static async getInitialProps(props) {
-    console.log("getInitialProps called from home.jsx", props.query.name)
+    // console.log("getInitialProps called from home.jsx", props.query.name)
     
     return {
       query: props.query,

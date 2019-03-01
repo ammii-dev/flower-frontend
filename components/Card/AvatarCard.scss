@@ -1,0 +1,11 @@
+.avatarCard{
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  overflow: hidden;
+
+  .img{
+    object-fit: cover;
+    height: 200px;
+    background: #fff1eb;
+  }
+}

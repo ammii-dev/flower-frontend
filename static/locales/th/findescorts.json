@@ -1,4 +1,25 @@
 {
   "findescorts_title": "ค้นหาน้องไซด์ไลน์",
-  "findescorts_description": ""
+  "findescorts_description": "",
+  "zone": "พื้นที่",
+  "filterby": "ตัวคัดกรอง",
+  "ratefilterlabel": "เรทต่องาน",
+
+  "servicefilterlabel": "งานที่รับ",
+  "servicefilter1": "บนเตียง",
+  "servicefilter2": "ค้างคืน",
+  "servicefilter3": "นวด",
+  "servicefilter4": "เที่ยว",
+  "servicefilter5": "ล้างตู้เย็น",
+
+  "genderfilterlabel": "เพศและการยืนยัน",
+  "genderfilter1": "หญิงและสาวสอง",
+  "genderfilter2": "หญิง",
+  "genderfilter3": "สาวสอง",
+  "genderfilter4": "สาวสองผ่าแล้วเท่านั้น",
+
+  "imgverifiedonlyfilter": "ยืนยีนรูปภาพแล้ว",
+
+  "applybtn": "ค้นหาเลย!"
+
 }

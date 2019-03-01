@@ -1,4 +1,25 @@
 {
-  "findescorts_title": "Explore",
-  "findescorts_description": ""
+  "findescorts_title": "Explore Paradise",
+  "findescorts_description": "",
+  "zone": "Zone",
+  "filterby": "Filter by",
+  "ratefilterlabel": "Rate",
+  "servicefilterlabel": "Services",
+
+  "servicefilter1": "Full Service",
+  "servicefilter2": "Overnight",
+  "servicefilter3": "Massage",
+  "servicefilter4": "Travel",
+  "servicefilter5": "Fridge Cleaning",
+
+  "genderfilterlabel": "Verification & Gender",
+  "genderfilter1": "Female & Trans",
+  "genderfilter2": "Female",
+  "genderfilter3": "Transgender",
+  "genderfilter4": "Transgender (cut only)",
+
+  "imgverifiedonlyfilter": "Verified images only",
+  
+  "applybtn": "Find now!"
+
 }
