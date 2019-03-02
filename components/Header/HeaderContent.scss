@@ -1,6 +1,8 @@
 
 .header_content{
   display:flex;
+  position: relative;
+
   .logo_wrapper{
     padding-right: 15px;
   }
@@ -11,6 +13,12 @@
       justify-content: flex-end;
       
     }
+  }
+  .langSwitcher{
+    position: absolute;
+    right: 0px;
+    bottom: -65px; 
+    z-index: 50;
   }
 }
 

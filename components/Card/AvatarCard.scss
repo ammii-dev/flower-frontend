@@ -1,11 +1,104 @@
 .avatarCard{
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  overflow: hidden;
+  
+}
 
-  .img{
-    object-fit: cover;
-    height: 200px;
-    background: #fff1eb;
+.cardCover{
+  position: relative;
+
+  .cover_img{
+    overflow: hidden;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+    .img{
+      object-fit: cover;
+      height: 200px;
+      width: 100%;
+      background: #fff1eb;
+    }
+  }
+  
+
+  .gender{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    padding: 2px 7px;
+    background: linear-gradient(to bottom, #12121200 0%, #0000006b 100%);
+
+    .gendertext{
+       color: #fff;
+       font-size: 12px;
+       text-shadow: 0px 1px 2px #000000a1;
+    }
+  }
+
+  .isVerified{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    z-index: 99;
+    margin-left: -10px;
+    padding: 0px 5px;
+    background: #24b535; //#24b535 //#43c753
+    border-radius: 3px;
+
+    .isVerified_text{
+      color: #fff;
+      font-size: 12px;
+      text-shadow: 0px 1px 2px #000000a1;
+    }
+  }
+}
+
+.cardTitle{
+  line-height: 25px;
+  vertical-align: bottom;
+
+  a.name{
+    // not working as intended: text is still overflowable
+    width: 100px;
+    text-overflow: clip;
+  }
+
+  .price_text{
+    float: right;
+    font-weight: 500;
+    font-size: 14px;
+
+    span{
+      font-weight: 400;
+    }
+  }
+
+}
+
+.cardMetaDescCover{
+
+  .zoneIcon{
+    display: inline-block;
+    margin-left: 5px;
+    height: 20px;
+  }
+  span{
+
+  }
+}
+
+.cardItemContent {
+  display: flex;
+  height: 20px;
+  margin-top: 16px;
+  margin-bottom: -4px;
+  line-height: 20px;
+
+  & > span {
+    flex: 1;
+    font-size: 12px;
+    
+    color: rgba(0,0,0,.45);
   }
 }

@@ -1,11 +1,8 @@
 @import '../../assets/color.scss';
 @import '../../assets/fonts.scss';
 
-.langBar {
-  padding-top: 1em;
-  text-align: right;
+.langSelector {
   color: $color-black;
-  float: right;
 
   .langSwitch {
     background: none !important;
@@ -16,12 +13,12 @@
     font-size: 16px;
   }
   
-  .langSwitchEN {
+  .toTHLang {
     font-family: $font-family-en;
     @extend .langSwitch;
   }
   
-  .langSwitchTH {
+  .toENLang {
     font-family: $font-family-th;
     @extend .langSwitch;
   }
