@@ -31,7 +31,6 @@ const Introducer = (props) => (
   <div className={style.introducer_height}>
     <div className={container}>
       <div className={style.introducer_container}>
-        <LanguageSwitcher/>
         <TextIntroduce {...props}/>
       </div>
     </div>

@@ -3,6 +3,7 @@ import { withNamespaces } from '../../i18n';
 import style from './HeaderContent.scss'
 
 import Link from 'next/link'
+import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
 
 const SubMenu = Menu.SubMenu;
 
@@ -42,6 +43,10 @@ const HeaderContent = (props) => (
     <div className={style.right_panel}>
       <UserMenu {...props}/>
     </div>
+    <div className={style.langSwitcher}>
+      <LanguageSwitcher/>
+    </div>
+    
   </div>
 )
 

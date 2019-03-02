@@ -32,11 +32,10 @@ module.exports = withSass(antdLessLoader({
   },
   exportPathMap: function () {
     return {
-      '/bank-account/submit.html': { page: '/bank-account/submit' },
-      '/bank-account/resubmit.html': { page: '/bank-account/resubmit' },
-      '/thank-you.html': { page: '/thank-you' },
       '/': {page: '/home/home'},
-      '/index': {page: '/home/home'}
+      '/index': {page: '/home/home'},
+      '/find': {page: '/find/findescort'},
+      '/escort': {page: '/escort/escort'},
     };
   },
 }));

@@ -10,6 +10,7 @@ const AvatarListCard = (props) => {
 
   const cardPosition = {
     flexBasis: "calc(" + flexBasis + "% - " + (marginPx * 2) + "px",
+    minWidth: 130,
     height: height,
     margin: marginPx + "px",
     marginBottom: "35px"

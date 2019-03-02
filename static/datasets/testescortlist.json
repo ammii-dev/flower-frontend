@@ -13,7 +13,7 @@
     "weight" : 50,
     "gender" : "Female",
     "age" : 20,
-    "isVerified" : false,
+    "isVerified" : true,
     "image" : "/image/jerry.png",
     "contact-line" : "asdaweq",
     "contact-phone" : "09848349",
@@ -26,7 +26,7 @@
   },
   {
     "id" : "2",
-    "name" : "kilJerry74",
+    "name" : "Jerry74",
     "price" : 2000,
     "package" : [
       {"name" : "One Splash", "price" : 2000},
@@ -38,7 +38,7 @@
     "weight" : 50,
     "gender" : "Female",
     "age" : 20,
-    "isVerified" : false,
+    "isVerified" : true,
     "image" : "/image/jerry.png",
     "contact-line" : "asdaweq",
     "contact-phone" : "09848349",
@@ -63,7 +63,7 @@
     "weight" : 50,
     "gender" : "Female",
     "age" : 20,
-    "isVerified" : false,
+    "isVerified" : true,
     "image" : "/image/jerry.png",
     "contact-line" : "asdaweq",
     "contact-phone" : "09848349",
@@ -126,7 +126,7 @@
   },
   {
     "id" : "6",
-    "name" : "kilJerry74",
+    "name" : "Motherfucker",
     "price" : 2000,
     "package" : [
       {"name" : "One Splash", "price" : 2000},
@@ -151,7 +151,7 @@
   },
   {
     "id" : "7",
-    "name" : "kilJerry74",
+    "name" : "Muwan",
     "price" : 2000,
     "package" : [
       {"name" : "One Splash", "price" : 2000},
@@ -176,7 +176,7 @@
   },
   {
     "id" : "8",
-    "name" : "kilJerry74",
+    "name" : "Muwan Noob",
     "price" : 2000,
     "package" : [
       {"name" : "One Splash", "price" : 2000},
@@ -311,9 +311,9 @@
     "shape" : "34/29/35",
     "height" : 160,
     "weight" : 50,
-    "gender" : "Trans (cut)",
+    "gender" : "Transgender (cut)",
     "age" : 20,
-    "isVerified" : false,
+    "isVerified" : true,
     "image" : "/image/jerry.png",
     "contact-line" : "asdaweq",
     "contact-phone" : "09848349",
@@ -336,7 +336,7 @@
     "shape" : "34/29/35",
     "height" : 160,
     "weight" : 50,
-    "gender" : "Trans (uncut)",
+    "gender" : "Transgender (uncut)",
     "age" : 20,
     "isVerified" : false,
     "image" : "/image/jerry.png",

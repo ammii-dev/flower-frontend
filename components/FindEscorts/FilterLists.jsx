@@ -24,7 +24,7 @@ class VerifiedAndGenderFilter extends React.Component{
       { label: this.props.t('genderfilter3'), value: 'transgender' },
       { label: this.props.t('genderfilter4'), value: 'transgendercut' },
     ];
-    const defaultOption = 'both'
+    const defaultOption = 'all'
 
     return(
       <div className={style.filter_item} style={{width: 190}}>
@@ -93,7 +93,7 @@ class CheckboxFilter extends React.Component{
 class RateFilter extends React.Component{
   render() {
     const marks = {
-      500: '500-',
+      500: '≤500',
       1000: '1000',
       1500: '1500',
       2000: '2000',
@@ -102,7 +102,7 @@ class RateFilter extends React.Component{
         style: {
           color: '#f50',
         },
-        label: <strong>3000+</strong>,
+        label: <strong>3000≤</strong>,
       },
     };
 
