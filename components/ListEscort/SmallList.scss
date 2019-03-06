@@ -1,0 +1,12 @@
+.topstar_wrapper{
+  background: linear-gradient(to bottom, #121212 0%, #323232 100%);
+  position: relative;
+  overflow: hidden;
+}
+.topstar_list_container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-left: -10px;
+  margin-right: -10px;
+}

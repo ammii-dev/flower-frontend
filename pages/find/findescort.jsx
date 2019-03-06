@@ -23,7 +23,7 @@ class Home extends React.Component{
   render() {
     return (
       <Template>
-        <TopStar />
+        {/* <TopStar /> */}
         <FindEscorts findPage/>
       </Template>
     )

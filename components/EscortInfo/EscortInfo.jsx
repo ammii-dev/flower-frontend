@@ -3,7 +3,7 @@ import { withNamespaces } from 'react-i18next';
 
 const EscortInfo = (props) => (
   <div className={style.escortInfo_wrapper}>
-    <div></div>
+    <div className={style.wait}></div>
   </div>
 )
 

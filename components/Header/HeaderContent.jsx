@@ -15,8 +15,9 @@ const ButtonMenu = (props) => (
 
 const UserMenu = (props) => (
   <div className={style.user_menu}>
-    <ButtonMenu buttonText={props.t('nav3')}/>
-    <ButtonMenu buttonText={<Button type="primary">{props.t('login') + "/" + props.t('signup')}</Button>}/>
+    <ButtonMenu buttonText={props.t('contact')}/>
+    <ButtonMenu buttonText={<Button type="primary">{props.t('login')}</Button>}/>
+    <LanguageSwitcher/>
   </div>
 )
 
@@ -42,9 +43,6 @@ const HeaderContent = (props) => (
     </Menu>
     <div className={style.right_panel}>
       <UserMenu {...props}/>
-    </div>
-    <div className={style.langSwitcher}>
-      <LanguageSwitcher/>
     </div>
     
   </div>

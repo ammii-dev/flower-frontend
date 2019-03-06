@@ -2,13 +2,16 @@
 
 .introducer_height{
   width: 100%;
+  background: #001529;
 }
 .introducer_container{
   position: relative;
-  min-height: 550px;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
 
   .text_introducer_container{
-    padding: 0px 0 40px 0;
+    padding-bottom: 20px;
     
     .lang_en{
       font-family: $font-family-en-default;
@@ -18,74 +21,87 @@
     }
 
     .main{
-      position: absolute;
-      top: 0;
-      bottom: 30px;
-      margin: auto;
+      // margin: 0 auto;
+      // text-align: center;
+      max-width: 700px;
       height: 220px;
 
       .introduceTitle{
         font-size: 55px;
         font-weight: 500;
-        color: rgba(0,0,0,.85);
+        color: rgba(255,255,255,1);
       }
 
       .introduceDescription{
-        color: #5f483a;
+        color: #ded8d5;
         margin-top: 0.27em;
         font-size: 20px;
         font-weight: normal;
       }
 
       .introduceButton{
-        position: absolute;
-        bottom: 0;
         margin-top: 50px;
-        display: flex;
-        align-items: center;
+        
         font-size: 15px;
       }
     }
   }
+
+  .zoneOption_wrapper{
+
+    .zoneOption_header{
+      
+      
+    }
+  }
 }
 
-.introduceTitle {
-  animation: head 1.3s 1;
-  @keyframes head {
-    0%, 20% {
-      opacity: 0;
-      transform: translate(0%, 20px);
-      letter-spacing: 10px;
-    }
-    75% {
-      opacity: 1;
-      transform: translate(0%, 20px);
-    }
+.zoneCard{
+  background: #fff !important;
+
+  &:hover{
+    background: #ffa38e !important;
   }
 }
-.introduceDescription {
-  animation: campaignText 1.3s 1;
-  @keyframes campaignText {
-    0% {
-      opacity: 0;
-      margin-top: -20px;
-    }
-    75% {
-      opacity: 0;
-      margin-top: -20px;
-    }
-  }
-}
-.introduceButton{
-  animation: buttonSet 1.3s 1;
-  @keyframes buttonSet {
-    0%, 30% {
-      opacity: 0;
-      left: 40px;
-    }
-    100% {
-      opacity: 1;
-      left: 0px;
-    }
-  }
-}
+
+
+// .introduceTitle {
+//   animation: head 1.3s 1;
+//   @keyframes head {
+//     0%, 20% {
+//       opacity: 0;
+//       transform: translate(0%, 20px);
+//       letter-spacing: 10px;
+//     }
+//     75% {
+//       opacity: 1;
+//       transform: translate(0%, 20px);
+//     }
+//   }
+// }
+// .introduceDescription {
+//   animation: campaignText 1.3s 1;
+//   @keyframes campaignText {
+//     0% {
+//       opacity: 0;
+//       margin-top: -20px;
+//     }
+//     75% {
+//       opacity: 0;
+//       margin-top: -20px;
+//     }
+//   }
+// }
+// .introduceButton{
+//   animation: buttonSet 1.3s 1;
+//   @keyframes buttonSet {
+//     0%, 30% {
+//       opacity: 0;
+//       left: 40px;
+//     }
+//     100% {
+//       opacity: 1;
+//       left: 0px;
+//     }
+//   }
+// }
