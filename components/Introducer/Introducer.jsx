@@ -1,10 +1,10 @@
 
 import { i18n, withNamespaces } from '../../i18n'
 
-import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import { container } from "../Template/Template.scss";
 import style from "./Introducer.scss"
-import { Button, Popover } from 'antd';
+import { Button, Popover, Row, Col } from 'antd';
+import SelectZone from './SelectZone';
 
 const TextIntroduce = (props) => (
   <div className={style.text_introducer_container}>
@@ -22,7 +22,17 @@ const TextIntroduce = (props) => (
           <ButtonContent iconUrl="./static/icons/icons8-place-marker-filled-30.png" text={props.t('findbyzone')}/>
         </Button>
       </div>
-      
+    </div>
+  </div>
+)
+
+const ZoneOption = (props) => (
+  <div className={style.zoneOption_wrapper}>
+    <div className={style.zoneOption_header}>
+      <span></span>
+    </div>
+    <div className={style.zone_option_list_container}>
+      <SelectZone/>
     </div>
   </div>
 )
@@ -31,7 +41,16 @@ const Introducer = (props) => (
   <div className={style.introducer_height}>
     <div className={container}>
       <div className={style.introducer_container}>
-        <TextIntroduce {...props}/>
+        <Row type="flex" justify="space-between" align="middle">
+          <Col span={8}>
+            <TextIntroduce {...props}/>
+          </Col>
+          <Col span={12}>
+            <ZoneOption {...props}/>
+          </Col>
+          
+        </Row>
+        
       </div>
     </div>
   </div>

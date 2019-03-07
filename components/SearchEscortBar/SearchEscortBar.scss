@@ -1,0 +1,60 @@
+
+.searchBar_container{
+  padding: 10px 25px;
+  border-radius: 2px;
+  background: #fff;
+  border: 1px solid #e9eef5;
+  box-shadow: 0 0 14px #e9eef5;
+
+  .row_container{
+    display: flex;
+
+    .search_header{
+      line-height: 50px;
+      height: 50px;
+      width: 100px;
+      font-weight: 600;
+    }
+    .search_input_list{
+      flex: 1 0;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .filter_container{
+    display: flex;
+    padding: 10px 25px;
+    
+  }
+}
+
+.filter_list_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 15px 20px 0 0;
+
+  .filter_item{
+    margin-right: 40px;
+    margin-bottom: 15px;
+
+    &:first-child{
+      padding-left: 0;
+    }
+
+    .filter_item_label{
+      font-weight: 600;
+    }
+  }
+
+  .verified_filter{
+    margin-top: 5px;
+    
+    span{
+    }
+    .verified_text{
+      margin-left: 4px;
+    }
+  }
+}

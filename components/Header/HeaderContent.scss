@@ -1,6 +1,6 @@
 
 .header_content{
-  display:flex;
+  display: flex;
   position: relative;
 
   .logo_wrapper{
@@ -23,7 +23,7 @@
 }
 
 .button_menu{
-  padding-left: 40px;
+  padding-right: 40px;
   transition-duration: .5s;
   color: darken(#fff, 35%);
   cursor: pointer;
