@@ -53,6 +53,13 @@ export default class MultipleItems extends Component {
       responsive: [
         
         {
+          breakpoint: 9999,
+          settings: {
+            slidesToShow: 6,
+            slidesToScroll: 1,
+          }
+        },
+        {
           breakpoint: 1600,
           settings: {
             slidesToShow: 4,

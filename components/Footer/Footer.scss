@@ -3,9 +3,12 @@
 .Footer {
   color: #fff;
   background: $color-primary;
+  padding-top: 20px;
 
   .Description {
     font-size: 16px;
+    margin: auto;
+    text-align: center;
   }
 
   .Contact {

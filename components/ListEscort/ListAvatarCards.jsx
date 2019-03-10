@@ -14,7 +14,7 @@ class SearchResult extends React.Component{
 
       {escortsDataLocal ? 
         <List
-          grid={{ gutter: 20, xxl: 6, lg: 4, md: 3, sm: 2, xs: 2 }}
+          grid={{ gutter: 20, xxl: 6, lg: 6, md: 3, sm: 2, xs: 2 }}
           dataSource={escortsDataLocal}
           renderItem={escort => (
             <List.Item>

@@ -19,10 +19,11 @@
     "contact-phone" : "09848349",
     "status" : "available",
     "viewscount" : 50,
-    "zone" : "Bangkae",
+    "zone" : "บางแคเหนือ รัชดา",
     "location" : "somewhere",
     "excerpt" : "asdnsd iasd asd jsad ajsdi asdj sdad",
-    "desc" : "asdasd VERY LONG TEXTS HERE"
+    "desc" : "asdasd VERY LONG TEXTS HERE",
+    "awards" : ["topstar", "goodreview", "goodimagematch"]
   },
   {
     "id" : "2",
@@ -72,7 +73,8 @@
     "zone" : "Bangkae",
     "location" : "somewhere",
     "excerpt" : "asdnsd iasd asd jsad ajsdi asdj sdad",
-    "desc" : "asdasd VERY LONG TEXTS HERE"
+    "desc" : "asdasd VERY LONG TEXTS HERE",
+    "awards" : ["topstar", "goodreview", "goodimagematch"]
   },
   {
     "id" : "4",
@@ -97,7 +99,8 @@
     "zone" : "Bangkae",
     "location" : "somewhere",
     "excerpt" : "asdnsd iasd asd jsad ajsdi asdj sdad",
-    "desc" : "asdasd VERY LONG TEXTS HERE"
+    "desc" : "asdasd VERY LONG TEXTS HERE",
+    "awards" : ["topstar", "goodreview", "goodimagematch"]
   },
   {
     "id" : "5",
@@ -122,7 +125,8 @@
     "zone" : "Bangkae",
     "location" : "somewhere",
     "excerpt" : "asdnsd iasd asd jsad ajsdi asdj sdad",
-    "desc" : "asdasd VERY LONG TEXTS HERE"
+    "desc" : "asdasd VERY LONG TEXTS HERE",
+    "awards" : ["topstar", "goodreview", "goodimagematch"]
   },
   {
     "id" : "6",
@@ -147,7 +151,8 @@
     "zone" : "Bangkae",
     "location" : "somewhere",
     "excerpt" : "asdnsd iasd asd jsad ajsdi asdj sdad",
-    "desc" : "asdasd VERY LONG TEXTS HERE"
+    "desc" : "asdasd VERY LONG TEXTS HERE",
+    "awards" : ["topstar", "goodreview", "goodimagematch"]
   },
   {
     "id" : "7",
@@ -172,7 +177,8 @@
     "zone" : "Bangkae",
     "location" : "somewhere",
     "excerpt" : "asdnsd iasd asd jsad ajsdi asdj sdad",
-    "desc" : "asdasd VERY LONG TEXTS HERE"
+    "desc" : "asdasd VERY LONG TEXTS HERE",
+    "awards" : ["topstar", "goodreview", "goodimagematch"]
   },
   {
     "id" : "8",
@@ -197,7 +203,8 @@
     "zone" : "Bangkae",
     "location" : "somewhere",
     "excerpt" : "asdnsd iasd asd jsad ajsdi asdj sdad",
-    "desc" : "asdasd VERY LONG TEXTS HERE"
+    "desc" : "asdasd VERY LONG TEXTS HERE",
+    "awards" : ["topstar", "goodreview"]
   },
   {
     "id" : "9",
@@ -222,7 +229,8 @@
     "zone" : "Bangkae",
     "location" : "somewhere",
     "excerpt" : "asdnsd iasd asd jsad ajsdi asdj sdad",
-    "desc" : "asdasd VERY LONG TEXTS HERE"
+    "desc" : "asdasd VERY LONG TEXTS HERE",
+    "awards" : ["goodimagematch"]
   },
   {
     "id" : "10",
@@ -247,7 +255,8 @@
     "zone" : "Bangkae",
     "location" : "somewhere",
     "excerpt" : "asdnsd iasd asd jsad ajsdi asdj sdad",
-    "desc" : "asdasd VERY LONG TEXTS HERE"
+    "desc" : "asdasd VERY LONG TEXTS HERE",
+    "awards" : ["topstar"]
   },
   {
     "id" : "11",
@@ -272,7 +281,8 @@
     "zone" : "Bangkae",
     "location" : "somewhere",
     "excerpt" : "asdnsd iasd asd jsad ajsdi asdj sdad",
-    "desc" : "asdasd VERY LONG TEXTS HERE"
+    "desc" : "asdasd VERY LONG TEXTS HERE",
+    "awards" : ["topstar"]
   },
   {
     "id" : "12",
@@ -297,7 +307,8 @@
     "zone" : "Bangkae",
     "location" : "somewhere",
     "excerpt" : "asdnsd iasd asd jsad ajsdi asdj sdad",
-    "desc" : "asdasd VERY LONG TEXTS HERE"
+    "desc" : "asdasd VERY LONG TEXTS HERE",
+    "awards" : ["topstar"]
   },
   {
     "id" : "13",
@@ -322,7 +333,8 @@
     "zone" : "Bangkae",
     "location" : "somewhere",
     "excerpt" : "asdnsd iasd asd jsad ajsdi asdj sdad",
-    "desc" : "asdasd VERY LONG TEXTS HERE"
+    "desc" : "asdasd VERY LONG TEXTS HERE",
+    "awards" : ["topstar"]
   },
   {
     "id" : "14",
@@ -347,6 +359,7 @@
     "zone" : "Bangkae",
     "location" : "somewhere",
     "excerpt" : "asdnsd iasd asd jsad ajsdi asdj sdad",
-    "desc" : "asdasd VERY LONG TEXTS HERE"
+    "desc" : "asdasd VERY LONG TEXTS HERE",
+    "awards" : ["topstar"]
   }
 ]
