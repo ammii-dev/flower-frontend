@@ -16,15 +16,22 @@
   }
 }
 
-.sectionHeading{
-  padding: 7px 25px;
-  border-radius: 8px;
-  color: #fff;
-  background: $color-primary;
+.escortSug_wrapper{
+  background: #f7f7f7;
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
 
-}
+  .sectionHeading{
+    padding: 7px 25px;
+    border-radius: 8px;
+    color: #fff;
+    background: $color-primary;
 
-.recommendedCard{
-  padding: 9px;
+  }
+
+  .recommendedCard{
+    padding: 9px;
+  }
+
 }
 

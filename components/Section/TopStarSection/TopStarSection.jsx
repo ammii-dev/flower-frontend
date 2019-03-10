@@ -28,7 +28,7 @@ const sectionHeading = (props) => (
 
 const TopStar = (props) => (
   <div className={style.topstar_wrapper}>
-    <div className={[container, container_vert_pad_default].join(' ')} style={{paddingBottom: 0}}>
+    <div className={[container, container_vert_pad_default].join(' ')}>
       <SectionHeader heading={sectionHeading(props)} description={props.t('topstar_desc')}/>
       <ListAvatarCard/>
     </div>
