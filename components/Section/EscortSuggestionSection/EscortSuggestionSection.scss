@@ -1,0 +1,30 @@
+@import '../../../assets/color.scss';
+
+:global{
+  .test{
+    background: black;
+  }
+  .slick-prev{
+    left: -35px !important;
+  }
+  .slick-next{
+    right: -35px !important;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: #222 !important;
+  }
+}
+
+.sectionHeading{
+  padding: 7px 25px;
+  border-radius: 8px;
+  color: #fff;
+  background: $color-primary;
+
+}
+
+.recommendedCard{
+  padding: 9px;
+}
+

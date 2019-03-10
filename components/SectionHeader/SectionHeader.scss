@@ -1,12 +1,26 @@
 .header_wrapper{
   text-align: center;
-  margin-bottom: 3.5rem;
-  h2{
-    font-size: 31px;
-    font-weight: 500;
-    margin-bottom: 0.9rem;
+  margin-bottom: 2.3rem;
+  position: relative;
+
+  .text_area{
+
+    h2{
+      font-size: 31px;
+      font-weight: 500;
+      margin-bottom: 0.4rem;
+    }
+    p{
+      color: #6b6b6b;
+    }
   }
-  p{
-    color: #6b6b6b;
+  
+  hr.hr{
+    position: absolute;
+    border-top: 1px solid rgba(0,0,0,.26);
+    width: 100%;
+    left: 0;
+    top: 50%;
+    margin: 0;
   }
 }

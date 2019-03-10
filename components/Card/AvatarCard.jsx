@@ -28,14 +28,31 @@ const cardMetaTitle = (escort) => (
     <a className={style.name}>
       {escort.name}
     </a>
-    <span className={style.price_text}>{escort.price.toLocaleString()}฿</span>
   </div>
 )
 
 const cardMetaDesc = (escort) => (
   <div className={style.cardMetaDescCover}>
+    <span className={style.price_text}>{escort.price.toLocaleString()}฿</span> |
+    <span> {escort.zone} area</span>
     
-    <span>{escort.zone} area</span><img className={style.zoneIcon} src="../static/icons/icons8-place-marker-filled-30.png"></img>
+  </div>
+)
+
+const cardMetaDetail = (escort) => (
+  <div className={style.detailArea}>
+    <span>{escort.age} years old</span><span>{escort.height}/{escort.weight}</span>
+  </div>
+)
+
+const cardBody = (escort) => (
+  <div className={style.cardBody}>
+    {cardMetaDesc(escort)}
+    {cardMetaTitle(escort)}
+    {/* {cardMetaDetail(escort)} */}
+    <div className={style.cardItemContent}>
+      <span>{escort.viewscount} views • 3 reviews</span>
+    </div>
   </div>
 )
 
@@ -45,15 +62,15 @@ const AvatarCard = (escort) => {
       className={style.avatarCard}
       hoverable
       cover={cardCover(escort)}
+      bodyStyle={{padding: 15}}
     >
-      <Card.Meta
+      {/* <Card.Meta
+        className={style.cardMeta}
         title={cardMetaTitle(escort)}
         description={cardMetaDesc(escort)}
-      />
+      /> */}
+      {cardBody(escort)}
       
-      <div className={style.cardItemContent}>
-        <span>{escort.viewscount} views • 3 reviews</span>
-      </div>
     </Card>
   )
 }
