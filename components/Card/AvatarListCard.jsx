@@ -27,7 +27,7 @@ const AvatarListCard = (props) => {
             <a>{props.name}</a>
           </div>
           <div className={style.card_desc}>
-            <span>{props.zone}</span> • <span>{props.price}฿</span>
+            <div>{props.zone}</div><div>{props.price}฿</div>
           </div>
         </div>
       </div>

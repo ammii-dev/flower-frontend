@@ -34,7 +34,7 @@ const cardMetaTitle = (escort) => (
 const cardMetaDesc = (escort) => (
   <div className={style.cardMetaDescCover}>
     <span className={style.price_text}>{escort.price.toLocaleString()}฿</span> |
-    <span> {escort.zone} area</span>
+    <span className={style.zone_text}> {escort.zone}</span>
     
   </div>
 )
@@ -62,7 +62,7 @@ const AvatarCard = (escort) => {
       className={style.avatarCard}
       hoverable
       cover={cardCover(escort)}
-      bodyStyle={{padding: 15}}
+      bodyStyle={{padding: '11px 15px'}}
     >
       {/* <Card.Meta
         className={style.cardMeta}

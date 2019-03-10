@@ -17,7 +17,7 @@ class RecentEscorts extends React.Component{
             grid={{ gutter: 20, xxl: 6, lg: 4, md: 4, sm: 3, xs: 3 }}
             dataSource={escortsDataLocal}
             renderItem={escort => (
-              <List.Item>
+              <List.Item style={{marginBottom: 25}}>
                 <AvatarListCard {...escort}/>
               </List.Item>
             )}

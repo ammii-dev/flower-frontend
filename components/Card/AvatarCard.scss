@@ -14,7 +14,7 @@
 
     .img{
       object-fit: cover;
-      height: 220px;
+      height: 200px;
       width: 100%;
       background: #fff1eb;
     }
@@ -61,7 +61,6 @@
   .cardTitle{
     line-height: 25px;
     vertical-align: bottom;
-    margin-top: 4px;
 
     a.name{
       // not working as intended: text is still overflowable
@@ -75,6 +74,13 @@
 
   .cardMetaDescCover{
     margin-top: 0px;
+    overflow: hidden;
+      height: 1.5em;
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
 
     .price_text{
       font-weight: 700;
@@ -91,6 +97,9 @@
     }
     span{
       color: rgba(0,0,0,.75);
+    }
+    span.zone_text{
+      
     }
   }
 
@@ -109,8 +118,6 @@
   .cardItemContent {
     display: flex;
     height: 20px;
-    margin-top: 3px;
-    margin-bottom: -4px;
     line-height: 20px;
   
     & > span {

@@ -4,8 +4,8 @@ import { Card, List } from "antd";
 
 const zoneCard = (zone, i) => {
   const title = (
-    <div>
-      <img style={{marginRight: 5, verticalAlign: 'middle '}} src="../static/icons/icons8-place-marker-filled-30.png"></img>
+    <div className={style.zoneCard_title}>
+      <img style={{height: 21, marginRight: 5, verticalAlign: 'middle '}} src="../static/icons/icons8-place-marker-filled-30.png"></img>
       {zone.zone}
     </div>
   )
@@ -15,10 +15,8 @@ const zoneCard = (zone, i) => {
       className={style.zoneCard}
       bodyStyle={{padding: 16}}
     >
-      <Card.Meta
-        title={title}
-        description={zone.desc}
-      />
+      {title}
+      <div className={style.desc}>{zone.desc}</div>
     </Card>
   )
 }

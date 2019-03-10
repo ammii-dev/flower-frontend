@@ -33,7 +33,7 @@ class Home extends React.Component{
         <Introducer />
         <TopStarSection />
         <EscortSuggestionSection/>
-        <FindZoneSection />
+        {/* <FindZoneSection /> */}
         <RecentlySection />
         <Footer/>
       </Template>
