@@ -42,10 +42,10 @@ const Introducer = (props) => (
     <div className={container}>
       <div className={style.introducer_container}>
         <Row type="flex" justify="space-between" align="middle">
-          <Col span={8}>
+          <Col xl={24} xxl={8}>
             <TextIntroduce {...props}/>
           </Col>
-          <Col span={12}>
+          <Col xl={24} xxl={12}>
             <ZoneOption {...props}/>
           </Col>
           

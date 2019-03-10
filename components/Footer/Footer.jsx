@@ -15,6 +15,7 @@ const ContactItem = (props) => (
 const Footer = (props) => (
   <div className={style.Footer}>
     <div className={style.Description}>
+      {props.t('footer')}
     </div>
     <div className={style.Contact}>
       <ContactItem text="+66 (0) 2 026 3355 || Line: Finfunhub1" icon="phone" href="tel: +6620263355" />
