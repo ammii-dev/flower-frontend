@@ -1,7 +1,7 @@
+@import '../../assets/color.scss';
+
 .avatarCard{
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  
+  border-radius: 3px;
 }
 
 .cardCover{
@@ -14,7 +14,7 @@
 
     .img{
       object-fit: cover;
-      height: 200px;
+      height: 220px;
       width: 100%;
       background: #fff1eb;
     }
@@ -54,52 +54,73 @@
   }
 }
 
-.cardTitle{
-  line-height: 25px;
-  vertical-align: bottom;
 
-  a.name{
-    // not working as intended: text is still overflowable
-    width: 100px;
-    text-overflow: clip;
+
+.cardBody{
+
+  .cardTitle{
+    line-height: 25px;
+    vertical-align: bottom;
+    margin-top: 4px;
+
+    a.name{
+      // not working as intended: text is still overflowable
+      width: 100px;
+      text-overflow: clip;
+      font-size: 18px;
+      font-weight: 400;
+    }
+
   }
 
-  .price_text{
-    float: right;
-    font-weight: 500;
-    font-size: 14px;
+  .cardMetaDescCover{
+    margin-top: 0px;
 
+    .price_text{
+      font-weight: 700;
+      font-size: 17px;
+      vertical-align: middle;
+      color: #333;
+    }
+
+    .zoneIcon{
+      display: inline-block;
+      margin-left: 5px;
+      height: 20px;
+      vertical-align: top;
+    }
     span{
-      font-weight: 400;
+      color: rgba(0,0,0,.75);
     }
   }
 
-}
+  .detailArea{
+    span{
+      background: $color-primary;
+      padding: 3px 7px;
+      border-radius: 3px;
+      color: #fff;
+      display: inline-block;
+      margin: 0px 4px 5px 0;
+      font-size: 12px;
+    }
+  }
 
-.cardMetaDescCover{
-
-  .zoneIcon{
-    display: inline-block;
-    margin-left: 5px;
+  .cardItemContent {
+    display: flex;
     height: 20px;
-    vertical-align: top;
-  }
-  span{
-
-  }
-}
-
-.cardItemContent {
-  display: flex;
-  height: 20px;
-  margin-top: 16px;
-  margin-bottom: -4px;
-  line-height: 20px;
-
-  & > span {
-    flex: 1;
-    font-size: 12px;
-    
-    color: rgba(0,0,0,.45);
+    margin-top: 3px;
+    margin-bottom: -4px;
+    line-height: 20px;
+  
+    & > span {
+      flex: 1;
+      font-size: 13px;
+      
+      color: rgba(0,0,0,.55);
+    }
   }
 }
+
+
+

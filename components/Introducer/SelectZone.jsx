@@ -13,6 +13,7 @@ const zoneCard = (zone, i) => {
     <Card
       hoverable
       className={style.zoneCard}
+      bodyStyle={{padding: 16}}
     >
       <Card.Meta
         title={title}

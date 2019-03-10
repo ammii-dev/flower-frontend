@@ -5,19 +5,19 @@ import { Badge } from 'antd';
 const AvatarListCard = (props) => {
   const row = props.row;
   const flexBasis = 100/row           // flexBasis = width of card
-  const height = flexBasis * 16
-  const marginPx = 10
+  const height = flexBasis * 19
+  const marginPx = 3
 
   const cardPosition = {
     flexBasis: "calc(" + flexBasis + "% - " + (marginPx * 2) + "px",
     minWidth: 130,
-    height: height,
+    // height: height,
     margin: marginPx + "px",
-    marginBottom: "35px"
+    marginBottom: "0px"
   }
 
   return(
-    <div className={style.avatar_card} style={cardPosition}>
+    <div className={style.avatar_card}>
       <div className={style.card_box}>
         <div className={style.img_wrapper}>
           <img className={style.img} src="/static/img/testescort.jpeg"/>

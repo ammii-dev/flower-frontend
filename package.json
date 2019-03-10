@@ -12,9 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.3.3",
-    "babel-plugin-import": "^1.11.0",
     "@zeit/next-sass": "^1.0.1",
     "antd": "^3.13.5",
+    "babel-plugin-import": "^1.11.0",
     "dotenv": "^6.2.0",
     "i18n": "^0.8.3",
     "i18next": "^14.0.1",
@@ -28,6 +28,11 @@
     "node-sass": "^4.11.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
+    "react-items-carousel": "^2.3.0",
+    "react-slick": "^0.23.2",
     "sass-loader": "^7.1.0"
+  },
+  "devDependencies": {
+    "react-alice-carousel": "^1.13.1"
   }
 }
